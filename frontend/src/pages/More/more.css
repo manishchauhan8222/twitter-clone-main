@@ -1,0 +1,99 @@
+.heading{
+    color: var(--twitter-color);
+    font-size: 40px;
+}
+
+
+/* more.css */
+
+/* Default theme */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Spanish theme */
+  body.spanish-theme {
+    background-color: #f8f9fa; /* Example color */
+    color: #212529; /* Example color */
+  }
+  
+  /* Hindi theme */
+  body.hindi-theme {
+    background-color: #e9ecef; /* Example color */
+    color: #495057; /* Example color */
+  }
+  
+  /* Portuguese theme */
+  body.portuguese-theme {
+    background-color: #dee2e6; /* Example color */
+    color: #343a40; /* Example color */
+  }
+  
+  /* Tamil theme */
+  body.tamil-theme {
+    background-color: #ced4da; /* Example color */
+    color: #6c757d; /* Example color */
+  }
+  
+  /* Bengali theme */
+  body.bengali-theme {
+    background-color: #adb5bd; /* Example color */
+    color: #495057; /* Example color */
+  }
+  
+  /* French theme */
+  body.french-theme {
+    background-color: #6c757d; /* Example color */
+    color: #f8f9fa; /* Example color */
+  }
+  
+
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 16px;
+  color: #495057;
+  margin: 8px 0;
+}
+
+p span {
+  font-weight: bold;
+}
+
+h4{
+  margin: 20px 8px;
+  color: #495057;
+}
